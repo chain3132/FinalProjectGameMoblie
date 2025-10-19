@@ -45,6 +45,7 @@ namespace BoonrodSirimongkol.Scripts.Controller
             Debug.Log("Time is up! You Lose!");
             Time.timeScale = 0f; 
             // TODO: เรียก Game Over Panel 
+            AdsSimple.instacne.ShowInterstitialAds();
             
         }
 
