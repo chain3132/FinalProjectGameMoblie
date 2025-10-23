@@ -4,6 +4,7 @@ using BoonrodSirimongkol.Scripts.MiniGame.PictureFrameMiniGame;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
+using static Unity.VisualScripting.Dependencies.Sqlite.SQLite3;
 
 public class MiniGameManager : MonoBehaviour
 {
@@ -12,9 +13,13 @@ public class MiniGameManager : MonoBehaviour
 
     [SerializeField] private PictureFrameMiniGame pictureFrameMiniGamePanel;
     [SerializeField] private TrashcanMiniGame trashcanMiniGamePanel;
+    [SerializeField] private MoppingMiniGame moppingMiniGamePanel;
+    [SerializeField] private FlashlightMiniGame flashLightMiniGamePanel;
+
+
 
     #endregion
-    
+
     #region Properties
     public EventMiniGameType CurrentTMiniGameType { get; private set; }
 
@@ -51,6 +56,14 @@ public class MiniGameManager : MonoBehaviour
             {
                 
             }
+            else if (CurrentTMiniGameType == EventMiniGameType.MoppingClean)
+            {
+                if (Touchscreen.current != null &&
+                    Touchscreen.current.primaryTouch.press.wasPressedThisFrame)
+                {
+                    moppingMiniGamePanel.OnMiniGameClickEvent(); 
+                }
+            }
         }
     }
     #endregion
@@ -81,6 +94,17 @@ public class MiniGameManager : MonoBehaviour
                 break;
             case EventMiniGameType.GarbageCollection:
                 trashcanMiniGamePanel.gameObject.SetActive(true);
+                isMiniGameStarted = true;
+                break;
+            case EventMiniGameType.MoppingClean:
+                moppingMiniGamePanel.gameObject.SetActive(true);
+                moppingMiniGamePanel.StartMiniGame();     
+                isMiniGameStarted = true;
+                break;
+            case EventMiniGameType.FlashLight:
+                flashLightMiniGamePanel.gameObject.SetActive(true);
+                flashLightMiniGamePanel.StartFlashlight();
+
                 isMiniGameStarted = true;
                 break;
             default:

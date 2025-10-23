@@ -8,7 +8,9 @@ namespace BoonrodSirimongkol.Scripts
     {
         None,
         PictureFrame,
-        GarbageCollection
+        GarbageCollection,
+        MoppingClean,
+        FlashLight
     }
     public class InterectableObject : MonoBehaviour
     {
