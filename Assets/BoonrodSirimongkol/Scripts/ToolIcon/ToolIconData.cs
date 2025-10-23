@@ -7,6 +7,7 @@ public enum ToolIconType
     Trashcan,
     Mopping,
     Hand,
+    Flashlight
 
 }
 [Serializable]

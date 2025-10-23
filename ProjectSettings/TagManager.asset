@@ -50,5 +50,11 @@ TagManager:
   - name: Garbage
     uniqueID: 2479502537
     locked: 0
+  - name: Water
+    uniqueID: 1777254835
+    locked: 0
+  - name: Dark
+    uniqueID: 1011945979
+    locked: 0
   m_RenderingLayers:
   - Default
