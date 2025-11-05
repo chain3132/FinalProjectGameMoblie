@@ -40,7 +40,12 @@ namespace BoonrodSirimongkol.Scripts
             {
                 SetDestory();
             }
-            
+
+            if (miniGameType == EventMiniGameType.MoppingClean)
+            {
+                SetDestory();
+            }
+
         }
 
         public void SetDestory()
