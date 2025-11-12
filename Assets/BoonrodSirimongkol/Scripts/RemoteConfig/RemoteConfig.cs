@@ -14,7 +14,6 @@ public class RemoteConfig : MonoBehaviour
         // initialize handlers for unity game services
         await UnityServices.InitializeAsync();
 
-        // remote config requires authentication for managing environment information
         if (!AuthenticationService.Instance.IsSignedIn)
         {
             await AuthenticationService.Instance.SignInAnonymouslyAsync();

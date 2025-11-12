@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 namespace BoonrodSirimongkol.Scripts.MiniGame.PictureFrameMiniGame
 {
-    public class PictureFrameMiniGame : MonoBehaviour
+    public class PictureFrameMiniGame : MiniGame
     {
         [SerializeField] private RectTransform pictureFrameImage;
         [SerializeField] private Image backgroundImage;
@@ -27,7 +27,13 @@ namespace BoonrodSirimongkol.Scripts.MiniGame.PictureFrameMiniGame
             backgroundImage.sprite = img;
             pictureFrameImage.rotation = Quaternion.Euler(0,0,120);
         }
-        private void EndMiniGame()
+
+        public override void StartMiniGame()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void EndMiniGame()
         {
             Debug.Log("MiniGame Completed!");
             gameObject.SetActive(false);

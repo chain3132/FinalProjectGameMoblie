@@ -1,7 +1,8 @@
 using System;
+using BoonrodSirimongkol.Scripts.MiniGame;
 using UnityEngine;
 
-public class TrashcanMiniGame : MonoBehaviour
+public class TrashcanMiniGame : MiniGame
 {
     [SerializeField] private int totalGarbage = 3; 
     private int collected = 0;
@@ -26,7 +27,12 @@ public class TrashcanMiniGame : MonoBehaviour
         }
     }
 
-    private void EndMiniGame()
+    public override void StartMiniGame()
+    {
+        throw new NotImplementedException();
+    }
+
+    public override void EndMiniGame()
     {
         gameObject.SetActive(false);
         collected = 0;

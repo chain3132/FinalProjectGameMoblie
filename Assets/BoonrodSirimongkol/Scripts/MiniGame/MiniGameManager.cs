@@ -1,5 +1,6 @@
 using System;
 using BoonrodSirimongkol.Scripts;
+using BoonrodSirimongkol.Scripts.MiniGame.MoppingMiniGame;
 using BoonrodSirimongkol.Scripts.MiniGame.PictureFrameMiniGame;
 using UnityEngine;
 using UnityEngine.InputSystem;

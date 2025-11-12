@@ -1,7 +1,8 @@
+using BoonrodSirimongkol.Scripts.MiniGame;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class FlashlightMiniGame : MonoBehaviour
+public class FlashlightMiniGame : MiniGame
 {
     [Header("Dark Area Settings")]
     public Image darkOverlay;
@@ -70,7 +71,12 @@ public class FlashlightMiniGame : MonoBehaviour
         }
     }
 
-    private void EndMiniGame()
+    public override void StartMiniGame()
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public override void EndMiniGame()
     {
         gameObject.SetActive(false);
         collected = 0;
