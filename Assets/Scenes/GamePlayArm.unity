@@ -2858,8 +2858,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dc9b4399e7ed3e4fa5d3707242f81de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BoonrodSirimongkol.Scripts.InterectableObject
-  requiredTool: 2
-  miniGameType: 3
+  requiredTool: 4
+  miniGameType: 4
 --- !u!1 &868176075
 GameObject:
   m_ObjectHideFlags: 0
