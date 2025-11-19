@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5fad76270896f144b9dececaf9c3c8c, type: 3}
+  m_Name: Level1
+  m_EditorClassIdentifier: Assembly-CSharp::Quest
+  level: 1
+  dialogue:
+  - "I have a small favor to ask. I seem to have misplaced some documents from work.
+    I usually leave them on the sofa or sometimes on the table, but I can\u2019t
+    find them today. If you come in to clean, could you please help look for them?
+    I need them for a meeting tomorrow. Thank you so much. (They might also be somewhere
+    around the bed.)"
+  goal: 1

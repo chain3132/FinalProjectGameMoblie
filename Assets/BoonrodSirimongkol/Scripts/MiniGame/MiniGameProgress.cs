@@ -29,6 +29,8 @@ public class MiniGameProgress : MonoBehaviour
     private void Start()
     {
         UpdateProgress(0);
+        
+
     }
 
 
@@ -61,5 +63,21 @@ public class MiniGameProgress : MonoBehaviour
             winPanel.SetActive(true);
         else
             Debug.LogWarning("Win Panel is not assigned in the inspector!");
+        
+    }
+    [ContextMenu("AnalysissStartLevel")]
+    public void AnalysissStartLevel()
+    {
+        AnalyticManager.Instance.StartLevel("Level1");
+    }
+    [ContextMenu("AnalysissEndLevel")]
+    public void AnalysissEndLevel()
+    {
+        AnalyticManager.Instance.EndLevel("Level1",30f,100);
+    }
+    [ContextMenu("AnalysissMiniGame")]
+    public void AnalysissMiniGame()
+    {
+        AnalyticManager.Instance.MiniGameStart("MoppingMiniGame");
     }
 }

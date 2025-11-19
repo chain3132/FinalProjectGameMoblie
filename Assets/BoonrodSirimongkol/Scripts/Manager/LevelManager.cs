@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SelectionManager : MonoBehaviour
+public class LevelManager : MonoBehaviour
 {
     
     public void SelectLevel1()

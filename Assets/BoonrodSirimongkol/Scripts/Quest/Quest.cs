@@ -1,16 +1,21 @@
 using UnityEngine;
-
-public class Quest : MonoBehaviour
+public enum LevelType
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    None,
+    Level1,
+    Level2,
+    Level3
+}
+public enum QuestGoal
+{
+    None,
+    Collect
+}
+[CreateAssetMenu(fileName = "New Quest", menuName = "BoonrodSirimongkol/Quest/New Quest")]
+public class Quest : ScriptableObject
+{
+    public LevelType level;
+    [TextArea] 
+    public string[] dialogue;    
+    public QuestGoal goal; 
 }
