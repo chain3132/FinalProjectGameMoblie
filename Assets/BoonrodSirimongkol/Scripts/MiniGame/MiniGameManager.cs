@@ -1,5 +1,6 @@
 using System;
 using BoonrodSirimongkol.Scripts;
+using BoonrodSirimongkol.Scripts.MiniGame.LaundryMiniGame;
 using BoonrodSirimongkol.Scripts.MiniGame.MoppingMiniGame;
 using BoonrodSirimongkol.Scripts.MiniGame.PictureFrameMiniGame;
 using UnityEngine;
@@ -16,6 +17,7 @@ public class MiniGameManager : MonoBehaviour
     [SerializeField] private TrashcanMiniGame trashcanMiniGamePanel;
     [SerializeField] private MoppingMiniGame moppingMiniGamePanel;
     [SerializeField] private FlashlightMiniGame flashLightMiniGamePanel;
+    [SerializeField] private LaundryMiniGame laundryMiniGamePanel;
 
 
 
@@ -65,6 +67,13 @@ public class MiniGameManager : MonoBehaviour
                     moppingMiniGamePanel.OnMiniGameClickEvent(); 
                 }
             }
+            else if (CurrentTMiniGameType == EventMiniGameType.Laundry)
+            {
+                if (Touchscreen.current.primaryTouch.press.wasPressedThisFrame)
+                {
+                    laundryMiniGamePanel.OnMiniGameClickEvent();
+                }
+            }
         }
     }
     #endregion
@@ -75,6 +84,7 @@ public class MiniGameManager : MonoBehaviour
     {
         CurrentTMiniGameType = miniGameType;
         _currentInterectableObject = interectableObject;
+        Debug.Log(_currentInterectableObject.name);
         Debug.Log(_currentInterectableObject);
         Debug.Log("Current MiniGame Type: " + CurrentTMiniGameType);
         OpenMiniGamePanel();
@@ -105,6 +115,11 @@ public class MiniGameManager : MonoBehaviour
             case EventMiniGameType.FlashLight:
                 flashLightMiniGamePanel.gameObject.SetActive(true);
                 flashLightMiniGamePanel.StartFlashlight();
+                isMiniGameStarted = true;
+                break;
+            case EventMiniGameType.Laundry:
+                laundryMiniGamePanel.gameObject.SetActive(true);
+                laundryMiniGamePanel.StartMiniGame();
                 isMiniGameStarted = true;
                 break;
             default:
