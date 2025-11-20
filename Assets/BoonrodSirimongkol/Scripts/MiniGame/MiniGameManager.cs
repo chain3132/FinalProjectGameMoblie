@@ -84,6 +84,7 @@ public class MiniGameManager : MonoBehaviour
     {
         CurrentTMiniGameType = miniGameType;
         _currentInterectableObject = interectableObject;
+        Debug.Log(_currentInterectableObject.name);
         Debug.Log(_currentInterectableObject);
         Debug.Log("Current MiniGame Type: " + CurrentTMiniGameType);
         OpenMiniGamePanel();
@@ -114,7 +115,6 @@ public class MiniGameManager : MonoBehaviour
             case EventMiniGameType.FlashLight:
                 flashLightMiniGamePanel.gameObject.SetActive(true);
                 flashLightMiniGamePanel.StartFlashlight();
-
                 isMiniGameStarted = true;
                 break;
             case EventMiniGameType.Laundry:

@@ -3132,7 +3132,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7596521704795243237, guid: 37a50e26d93fbd44f9c321cd8cbbf88d, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7596521704795243237, guid: 37a50e26d93fbd44f9c321cd8cbbf88d, type: 3}
       propertyPath: m_AnchorMin.x
@@ -3140,7 +3140,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7596521704795243237, guid: 37a50e26d93fbd44f9c321cd8cbbf88d, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7596521704795243237, guid: 37a50e26d93fbd44f9c321cd8cbbf88d, type: 3}
       propertyPath: m_SizeDelta.x
@@ -3180,11 +3180,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7596521704795243237, guid: 37a50e26d93fbd44f9c321cd8cbbf88d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 133.9765
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7596521704795243237, guid: 37a50e26d93fbd44f9c321cd8cbbf88d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -667.45233
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7596521704795243237, guid: 37a50e26d93fbd44f9c321cd8cbbf88d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4301,8 +4301,6 @@ GameObject:
   m_Component:
   - component: {fileID: 824790274}
   - component: {fileID: 824790275}
-  - component: {fileID: 824790276}
-  - component: {fileID: 824790277}
   m_Layer: 0
   m_Name: BookShelf
   m_TagString: Untagged
@@ -4383,66 +4381,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &824790276
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824790273}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.590909, y: 4.840909}
-    newSize: {x: 2, y: 1.87}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 3.125, y: 2.921875}
-  m_EdgeRadius: 0
---- !u!114 &824790277
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824790273}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7dc9b4399e7ed3e4fa5d3707242f81de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BoonrodSirimongkol.Scripts.InterectableObject
-  requiredTool: 0
-  miniGameType: 0
 --- !u!1 &839189203
 GameObject:
   m_ObjectHideFlags: 0
@@ -4529,7 +4467,6 @@ GameObject:
   - component: {fileID: 848390236}
   - component: {fileID: 848390239}
   - component: {fileID: 848390238}
-  - component: {fileID: 848390237}
   m_Layer: 0
   m_Name: BookShelf (1)
   m_TagString: Untagged
@@ -4552,20 +4489,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1125524621}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &848390237
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 848390235}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7dc9b4399e7ed3e4fa5d3707242f81de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BoonrodSirimongkol.Scripts.InterectableObject
-  requiredTool: 0
-  miniGameType: 0
 --- !u!61 &848390238
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5569,7 +5492,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7596521704795243237, guid: 37a50e26d93fbd44f9c321cd8cbbf88d, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7596521704795243237, guid: 37a50e26d93fbd44f9c321cd8cbbf88d, type: 3}
       propertyPath: m_AnchorMin.x
@@ -5577,7 +5500,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7596521704795243237, guid: 37a50e26d93fbd44f9c321cd8cbbf88d, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7596521704795243237, guid: 37a50e26d93fbd44f9c321cd8cbbf88d, type: 3}
       propertyPath: m_SizeDelta.x
@@ -5617,11 +5540,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7596521704795243237, guid: 37a50e26d93fbd44f9c321cd8cbbf88d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 133.9765
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7596521704795243237, guid: 37a50e26d93fbd44f9c321cd8cbbf88d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -476.6349
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7596521704795243237, guid: 37a50e26d93fbd44f9c321cd8cbbf88d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6332,7 +6255,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1195949672}
-  - component: {fileID: 1195949673}
   m_Layer: 0
   m_Name: Water
   m_TagString: Untagged
@@ -6356,20 +6278,6 @@ Transform:
   - {fileID: 960940311}
   m_Father: {fileID: 803243977}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1195949673
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1195949671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7dc9b4399e7ed3e4fa5d3707242f81de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BoonrodSirimongkol.Scripts.InterectableObject
-  requiredTool: 2
-  miniGameType: 3
 --- !u!1 &1227310033
 GameObject:
   m_ObjectHideFlags: 0
@@ -7392,8 +7300,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1510876303}
   - component: {fileID: 1510876306}
-  - component: {fileID: 1510876305}
-  - component: {fileID: 1510876304}
   m_Layer: 0
   m_Name: BookShelf (3)
   m_TagString: Untagged
@@ -7416,66 +7322,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1125524621}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1510876304
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1510876302}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7dc9b4399e7ed3e4fa5d3707242f81de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BoonrodSirimongkol.Scripts.InterectableObject
-  requiredTool: 0
-  miniGameType: 0
---- !u!61 &1510876305
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1510876302}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.8522727, y: 0.4318182}
-    newSize: {x: 2, y: 1.87}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 3.125, y: 2.921875}
-  m_EdgeRadius: 0
 --- !u!212 &1510876306
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7587,7 +7433,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.0120693445, y: 0.019922324}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -7597,7 +7443,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 15.6, y: 5.78}
+  m_Size: {x: 1.1025105, y: 0.43974388}
   m_EdgeRadius: 0
 --- !u!1 &1570420794
 GameObject:
@@ -7971,8 +7817,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1720960152}
   - component: {fileID: 1720960155}
-  - component: {fileID: 1720960154}
-  - component: {fileID: 1720960153}
   m_Layer: 0
   m_Name: BookShelf (4)
   m_TagString: Untagged
@@ -7995,66 +7839,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1125524621}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1720960153
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1720960151}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7dc9b4399e7ed3e4fa5d3707242f81de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BoonrodSirimongkol.Scripts.InterectableObject
-  requiredTool: 0
-  miniGameType: 0
---- !u!61 &1720960154
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1720960151}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.8522727, y: 0.4318182}
-    newSize: {x: 2, y: 1.87}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 3.125, y: 2.921875}
-  m_EdgeRadius: 0
 --- !u!212 &1720960155
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9269,7 +9053,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7596521704795243237, guid: 37a50e26d93fbd44f9c321cd8cbbf88d, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7596521704795243237, guid: 37a50e26d93fbd44f9c321cd8cbbf88d, type: 3}
       propertyPath: m_AnchorMin.x
@@ -9277,7 +9061,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7596521704795243237, guid: 37a50e26d93fbd44f9c321cd8cbbf88d, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7596521704795243237, guid: 37a50e26d93fbd44f9c321cd8cbbf88d, type: 3}
       propertyPath: m_SizeDelta.x
@@ -9317,11 +9101,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7596521704795243237, guid: 37a50e26d93fbd44f9c321cd8cbbf88d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 133.9765
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7596521704795243237, guid: 37a50e26d93fbd44f9c321cd8cbbf88d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -285.81744
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7596521704795243237, guid: 37a50e26d93fbd44f9c321cd8cbbf88d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -10662,7 +10446,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7596521704795243237, guid: 37a50e26d93fbd44f9c321cd8cbbf88d, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7596521704795243237, guid: 37a50e26d93fbd44f9c321cd8cbbf88d, type: 3}
       propertyPath: m_AnchorMin.x
@@ -10670,7 +10454,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7596521704795243237, guid: 37a50e26d93fbd44f9c321cd8cbbf88d, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7596521704795243237, guid: 37a50e26d93fbd44f9c321cd8cbbf88d, type: 3}
       propertyPath: m_SizeDelta.x
@@ -10710,11 +10494,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7596521704795243237, guid: 37a50e26d93fbd44f9c321cd8cbbf88d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 133.9765
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7596521704795243237, guid: 37a50e26d93fbd44f9c321cd8cbbf88d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -95
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7596521704795243237, guid: 37a50e26d93fbd44f9c321cd8cbbf88d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
