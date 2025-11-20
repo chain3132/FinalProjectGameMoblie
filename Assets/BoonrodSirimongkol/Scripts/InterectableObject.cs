@@ -36,7 +36,7 @@ namespace BoonrodSirimongkol.Scripts
         {
             isFixed = true;
             transform.rotation = Quaternion.Euler(0,0,0);
-            if (miniGameType == EventMiniGameType.GarbageCollection)
+            if (miniGameType == EventMiniGameType.GarbageCollection || miniGameType == EventMiniGameType.MoppingClean)
             {
                 SetDestory();
             }

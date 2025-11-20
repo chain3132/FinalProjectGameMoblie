@@ -105,7 +105,6 @@ public class MiniGameManager : MonoBehaviour
             case EventMiniGameType.FlashLight:
                 flashLightMiniGamePanel.gameObject.SetActive(true);
                 flashLightMiniGamePanel.StartFlashlight();
-
                 isMiniGameStarted = true;
                 break;
             default:
