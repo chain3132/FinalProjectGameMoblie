@@ -10,7 +10,8 @@ namespace BoonrodSirimongkol.Scripts
         PictureFrame,
         GarbageCollection,
         MoppingClean,
-        FlashLight
+        FlashLight,
+        Laundry
     }
     public class InterectableObject : MonoBehaviour
     {

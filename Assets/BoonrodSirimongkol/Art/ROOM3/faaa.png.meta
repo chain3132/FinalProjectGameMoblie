@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1a22ecfc44d8a5748808ade203011c34
+guid: ece5456584c179045b266a070148d4c8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 497600754102043572
-    second: Table_0
+      213: -6003846672841171049
+    second: faaa_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Table_0
+      name: faaa_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 11
-        width: 937
-        height: 1258
+        y: 0
+        width: 754
+        height: 674
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4b3083cdf35d7e600800000000000000
-      internalID: 497600754102043572
+      spriteID: 79f1463c24d0eaca0800000000000000
+      internalID: -6003846672841171049
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Table_0: 497600754102043572
+      faaa_0: -6003846672841171049
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
