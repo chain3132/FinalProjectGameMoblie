@@ -1,6 +1,8 @@
 using System;
+using BoonrodSirimongkol.Scripts.Manager;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class MiniGameProgress : MonoBehaviour
@@ -29,8 +31,6 @@ public class MiniGameProgress : MonoBehaviour
     private void Start()
     {
         UpdateProgress(0);
-        
-
     }
 
 
@@ -53,17 +53,26 @@ public class MiniGameProgress : MonoBehaviour
         }
     }
 
-    private void GameFinished()
+    private  void GameFinished()
     {
-        Debug.Log("All mini-games completed!");
 
+        GameManager.Instance.level2Unlocked= true;
         Time.timeScale = 0f;
 
         if (winPanel != null)
             winPanel.SetActive(true);
         else
             Debug.LogWarning("Win Panel is not assigned in the inspector!");
+        StartCoroutine(ReturnToSceneSelection());
         
+    }
+    
+    private System.Collections.IEnumerator ReturnToSceneSelection()
+    {
+        yield return new WaitForSecondsRealtime(2f);
+
+        Time.timeScale = 1f; 
+        SceneManager.LoadSceneAsync(0); 
     }
     [ContextMenu("AnalysissStartLevel")]
     public void AnalysissStartLevel()

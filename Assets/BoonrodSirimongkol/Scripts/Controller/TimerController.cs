@@ -1,3 +1,4 @@
+using BoonrodSirimongkol.Scripts.Manager;
 using TMPro;
 using UnityEngine;
 
@@ -20,6 +21,7 @@ namespace BoonrodSirimongkol.Scripts.Controller
 
         void Update()
         {
+            if (GameManager.Instance.CurrentGameState != Share.GameState.DuringLevelState){return;}
             if (!isRunning) return;
 
             currentTime -= Time.deltaTime;

@@ -1,0 +1,1300 @@
+fileFormatVersion: 2
+guid: 4e89719721fd8b244967e67670a9b315
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5536618963362211780
+    second: Mobile_Game_Presentation-removebg-preview_0
+  - first:
+      213: 1226015974185895388
+    second: Mobile_Game_Presentation-removebg-preview_1
+  - first:
+      213: 9214287251844625069
+    second: Mobile_Game_Presentation-removebg-preview_2
+  - first:
+      213: 675783049256909947
+    second: Mobile_Game_Presentation-removebg-preview_3
+  - first:
+      213: 1964730719196162775
+    second: Mobile_Game_Presentation-removebg-preview_4
+  - first:
+      213: -6563539076048183864
+    second: Mobile_Game_Presentation-removebg-preview_5
+  - first:
+      213: -8888234634864060209
+    second: Mobile_Game_Presentation-removebg-preview_6
+  - first:
+      213: -8213811380430864038
+    second: Mobile_Game_Presentation-removebg-preview_7
+  - first:
+      213: -5897949600541773623
+    second: Mobile_Game_Presentation-removebg-preview_8
+  - first:
+      213: -1834171353192081581
+    second: Mobile_Game_Presentation-removebg-preview_9
+  - first:
+      213: -4017123276701767639
+    second: Mobile_Game_Presentation-removebg-preview_10
+  - first:
+      213: 409829125457844892
+    second: Mobile_Game_Presentation-removebg-preview_11
+  - first:
+      213: -3078755323529229714
+    second: Mobile_Game_Presentation-removebg-preview_12
+  - first:
+      213: 7263578229198860920
+    second: Mobile_Game_Presentation-removebg-preview_13
+  - first:
+      213: -2322082239890450382
+    second: Mobile_Game_Presentation-removebg-preview_14
+  - first:
+      213: -2391195316949912382
+    second: Mobile_Game_Presentation-removebg-preview_15
+  - first:
+      213: 6690438890304787365
+    second: Mobile_Game_Presentation-removebg-preview_16
+  - first:
+      213: 855623031724700898
+    second: Mobile_Game_Presentation-removebg-preview_17
+  - first:
+      213: -6612707151641011361
+    second: Mobile_Game_Presentation-removebg-preview_18
+  - first:
+      213: 4564645973211773319
+    second: Mobile_Game_Presentation-removebg-preview_19
+  - first:
+      213: 8795222536258215023
+    second: Mobile_Game_Presentation-removebg-preview_20
+  - first:
+      213: 4262772542517619658
+    second: Mobile_Game_Presentation-removebg-preview_21
+  - first:
+      213: 8134122966675457460
+    second: Mobile_Game_Presentation-removebg-preview_22
+  - first:
+      213: -4227527363613574997
+    second: Mobile_Game_Presentation-removebg-preview_23
+  - first:
+      213: -5550064361225885597
+    second: Mobile_Game_Presentation-removebg-preview_24
+  - first:
+      213: 3999029118764200153
+    second: Mobile_Game_Presentation-removebg-preview_25
+  - first:
+      213: 1177468657673621628
+    second: Mobile_Game_Presentation-removebg-preview_26
+  - first:
+      213: 3025331731705021283
+    second: Mobile_Game_Presentation-removebg-preview_27
+  - first:
+      213: -607120181879484379
+    second: Mobile_Game_Presentation-removebg-preview_28
+  - first:
+      213: 8777540054127179664
+    second: Mobile_Game_Presentation-removebg-preview_29
+  - first:
+      213: -8895372651292828105
+    second: Mobile_Game_Presentation-removebg-preview_30
+  - first:
+      213: 1589329305191257642
+    second: Mobile_Game_Presentation-removebg-preview_31
+  - first:
+      213: -1016080319891566259
+    second: Mobile_Game_Presentation-removebg-preview_32
+  - first:
+      213: 6917873125685889556
+    second: Mobile_Game_Presentation-removebg-preview_33
+  - first:
+      213: 5002604333411315938
+    second: Mobile_Game_Presentation-removebg-preview_34
+  - first:
+      213: -4168561831736139644
+    second: Mobile_Game_Presentation-removebg-preview_35
+  - first:
+      213: 5613532997109503463
+    second: Mobile_Game_Presentation-removebg-preview_36
+  - first:
+      213: -2233262889229277389
+    second: Mobile_Game_Presentation-removebg-preview_37
+  - first:
+      213: 1817714462069216508
+    second: Mobile_Game_Presentation-removebg-preview_38
+  - first:
+      213: -4071369563608300274
+    second: Mobile_Game_Presentation-removebg-preview_39
+  - first:
+      213: -6235976741945626310
+    second: Mobile_Game_Presentation-removebg-preview_40
+  - first:
+      213: -4275854845996227456
+    second: Mobile_Game_Presentation-removebg-preview_41
+  - first:
+      213: -7904714931229973332
+    second: Mobile_Game_Presentation-removebg-preview_42
+  - first:
+      213: 210067605996840702
+    second: Mobile_Game_Presentation-removebg-preview_43
+  - first:
+      213: -5655949567367381798
+    second: Mobile_Game_Presentation-removebg-preview_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 268
+        width: 65
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c765e7ec9506dc40800000000000000
+      internalID: 5536618963362211780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 299
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd50e46680fa30110800000000000000
+      internalID: 1226015974185895388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 309
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2fb98af69bfdf70800000000000000
+      internalID: 9214287251844625069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 320
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c30345a1dd06900800000000000000
+      internalID: 675783049256909947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 288
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da2cf4fd20244b10800000000000000
+      internalID: 1964730719196162775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 287
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd90c64cff99e4a0800000000000000
+      internalID: -6563539076048183864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 291
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc89a9401b5a6a480800000000000000
+      internalID: -8888234634864060209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 290
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a518b51711ea20e80800000000000000
+      internalID: -8213811380430864038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 296
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c0fc844616462ea0800000000000000
+      internalID: -5897949600541773623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 282
+        width: 52
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357d9c34fd6bb86e0800000000000000
+      internalID: -1834171353192081581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 292
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928ec39d9af4048c0800000000000000
+      internalID: -4017123276701767639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 236
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a16811b6100b500800000000000000
+      internalID: 409829125457844892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 272
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a82be58501645d0800000000000000
+      internalID: -3078755323529229714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 246
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 872b8a55ae96dc460800000000000000
+      internalID: 7263578229198860920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 234
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2381618718e46cfd0800000000000000
+      internalID: -2322082239890450382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 227
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c47f904784c0ded0800000000000000
+      internalID: -2391195316949912382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 222
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a3531829b639dc50800000000000000
+      internalID: 6690438890304787365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 161
+        width: 45
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4f7933d98cfdb00800000000000000
+      internalID: 855623031724700898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 183
+        width: 123
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b90c691e1fa34a0800000000000000
+      internalID: -6612707151641011361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 183
+        width: 122
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78974bef351e85f30800000000000000
+      internalID: 4564645973211773319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 183
+        width: 80
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c5e223c48ee0a70800000000000000
+      internalID: 8795222536258215023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 211
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb2d03da09682b30800000000000000
+      internalID: 4262772542517619658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 199
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b58904edb532e070800000000000000
+      internalID: 8134122966675457460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 195
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8b19dd24ec455c0800000000000000
+      internalID: -4227527363613574997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 168
+        width: 7
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36863947ed53af2b0800000000000000
+      internalID: -5550064361225885597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 139
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d03266bbc76f7730800000000000000
+      internalID: 3999029118764200153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 144
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c70dac27185375010800000000000000
+      internalID: 1177468657673621628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 137
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363cefb5e232cf920800000000000000
+      internalID: 3025331731705021283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 123
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5205a1749631397f0800000000000000
+      internalID: -607120181879484379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 114
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09773008c2610d970800000000000000
+      internalID: 8777540054127179664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 117
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e57fe04b94d8480800000000000000
+      internalID: -8895372651292828105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 117
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a261b0b159e6e0610800000000000000
+      internalID: 1589329305191257642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 115
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41199d155826e1f0800000000000000
+      internalID: -1016080319891566259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 89
+        width: 49
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a8ab194f8310060800000000000000
+      internalID: 6917873125685889556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 112
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0bfc4e222dc6540800000000000000
+      internalID: 5002604333411315938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 114
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480ad1b991b4626c0800000000000000
+      internalID: -4168561831736139644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 109
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e555a3e48647ed40800000000000000
+      internalID: 5613532997109503463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 101
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3372d6d0c3bd101e0800000000000000
+      internalID: -2233262889229277389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 103
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf4d9be2ca1d93910800000000000000
+      internalID: 1817714462069216508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 108
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e054ac3f3f69f77c0800000000000000
+      internalID: -4071369563608300274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 108
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31bbbc513c5579a0800000000000000
+      internalID: -6235976741945626310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 95
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08423490cac19a4c0800000000000000
+      internalID: -4275854845996227456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 110
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4af49a6afcc4290800000000000000
+      internalID: -7904714931229973332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 100
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6224aef5f4ae200800000000000000
+      internalID: 210067605996840702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_Game_Presentation-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 84
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adcfa81c5d70281b0800000000000000
+      internalID: -5655949567367381798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mobile_Game_Presentation-removebg-preview_0: 5536618963362211780
+      Mobile_Game_Presentation-removebg-preview_1: 1226015974185895388
+      Mobile_Game_Presentation-removebg-preview_10: -4017123276701767639
+      Mobile_Game_Presentation-removebg-preview_11: 409829125457844892
+      Mobile_Game_Presentation-removebg-preview_12: -3078755323529229714
+      Mobile_Game_Presentation-removebg-preview_13: 7263578229198860920
+      Mobile_Game_Presentation-removebg-preview_14: -2322082239890450382
+      Mobile_Game_Presentation-removebg-preview_15: -2391195316949912382
+      Mobile_Game_Presentation-removebg-preview_16: 6690438890304787365
+      Mobile_Game_Presentation-removebg-preview_17: 855623031724700898
+      Mobile_Game_Presentation-removebg-preview_18: -6612707151641011361
+      Mobile_Game_Presentation-removebg-preview_19: 4564645973211773319
+      Mobile_Game_Presentation-removebg-preview_2: 9214287251844625069
+      Mobile_Game_Presentation-removebg-preview_20: 8795222536258215023
+      Mobile_Game_Presentation-removebg-preview_21: 4262772542517619658
+      Mobile_Game_Presentation-removebg-preview_22: 8134122966675457460
+      Mobile_Game_Presentation-removebg-preview_23: -4227527363613574997
+      Mobile_Game_Presentation-removebg-preview_24: -5550064361225885597
+      Mobile_Game_Presentation-removebg-preview_25: 3999029118764200153
+      Mobile_Game_Presentation-removebg-preview_26: 1177468657673621628
+      Mobile_Game_Presentation-removebg-preview_27: 3025331731705021283
+      Mobile_Game_Presentation-removebg-preview_28: -607120181879484379
+      Mobile_Game_Presentation-removebg-preview_29: 8777540054127179664
+      Mobile_Game_Presentation-removebg-preview_3: 675783049256909947
+      Mobile_Game_Presentation-removebg-preview_30: -8895372651292828105
+      Mobile_Game_Presentation-removebg-preview_31: 1589329305191257642
+      Mobile_Game_Presentation-removebg-preview_32: -1016080319891566259
+      Mobile_Game_Presentation-removebg-preview_33: 6917873125685889556
+      Mobile_Game_Presentation-removebg-preview_34: 5002604333411315938
+      Mobile_Game_Presentation-removebg-preview_35: -4168561831736139644
+      Mobile_Game_Presentation-removebg-preview_36: 5613532997109503463
+      Mobile_Game_Presentation-removebg-preview_37: -2233262889229277389
+      Mobile_Game_Presentation-removebg-preview_38: 1817714462069216508
+      Mobile_Game_Presentation-removebg-preview_39: -4071369563608300274
+      Mobile_Game_Presentation-removebg-preview_4: 1964730719196162775
+      Mobile_Game_Presentation-removebg-preview_40: -6235976741945626310
+      Mobile_Game_Presentation-removebg-preview_41: -4275854845996227456
+      Mobile_Game_Presentation-removebg-preview_42: -7904714931229973332
+      Mobile_Game_Presentation-removebg-preview_43: 210067605996840702
+      Mobile_Game_Presentation-removebg-preview_44: -5655949567367381798
+      Mobile_Game_Presentation-removebg-preview_5: -6563539076048183864
+      Mobile_Game_Presentation-removebg-preview_6: -8888234634864060209
+      Mobile_Game_Presentation-removebg-preview_7: -8213811380430864038
+      Mobile_Game_Presentation-removebg-preview_8: -5897949600541773623
+      Mobile_Game_Presentation-removebg-preview_9: -1834171353192081581
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

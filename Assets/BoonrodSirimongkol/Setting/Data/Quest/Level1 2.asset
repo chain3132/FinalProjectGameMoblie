@@ -20,3 +20,5 @@ MonoBehaviour:
     suddenly gone. If you find it, please keep it for me and give me a call. Thank
     you."
   goal: 1
+  icon: {fileID: 1689123433212400451, guid: 56d112fff919bf449be3a3b8585bd5e0, type: 3}
+  questPrefab: {fileID: 221846545581280660, guid: 3bc9d1930e168ca4bbe8cfa5c27227f7, type: 3}

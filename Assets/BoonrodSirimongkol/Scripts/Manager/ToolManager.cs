@@ -21,6 +21,10 @@ namespace BoonrodSirimongkol.Scripts.Manager
             CurrentToolType = toolIcon;
             Debug.Log("Selected Tool: " + toolIcon);
         }
+        public void ChangeIcon(Sprite icon)
+        {
+            CurrentToolIcon = icon;
+        }
 
         public void ClearTool()
         {

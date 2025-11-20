@@ -1,17 +1,22 @@
+using BoonrodSirimongkol.Scripts.Manager;
 using BoonrodSirimongkol.Scripts.MiniGame;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class FlashlightMiniGame : MiniGame
 {
+    
     [Header("Dark Area Settings")]
     public Image darkOverlay;
     public GameObject[] hiddenObject;
     public float revealSpeed = 0.5f;    
     private bool isRevealing = false;
     private float visibility = 0f;
+    
 
     [SerializeField] private int totalGarbage = 3;
+    [SerializeField] private Sprite garbageIcon;
+    [SerializeField] private Sprite flashlightIcon;
     private int collected = 0;
 
     void Start()
@@ -44,6 +49,7 @@ public class FlashlightMiniGame : MiniGame
                 foreach (var obj in hiddenObject)
                 {
                     obj.SetActive(true);
+                    ToolManager.Instance.ChangeIcon(garbageIcon);
                 }
 
             }
@@ -79,6 +85,7 @@ public class FlashlightMiniGame : MiniGame
     public override void EndMiniGame()
     {
         gameObject.SetActive(false);
+        ToolManager.Instance.ChangeIcon(flashlightIcon);
         collected = 0;
         MiniGameProgress.Instance.UpdateProgress(1);
         MiniGameManager.Instance.OpenNextStateOrFinish();

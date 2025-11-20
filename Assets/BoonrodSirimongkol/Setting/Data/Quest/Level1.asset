@@ -20,3 +20,5 @@ MonoBehaviour:
     I need them for a meeting tomorrow. Thank you so much. (They might also be somewhere
     around the bed.)"
   goal: 1
+  icon: {fileID: 5890847784052010573, guid: ffb2d4e17c0a8924c82388c07ce62c83, type: 3}
+  questPrefab: {fileID: 221846545581280660, guid: 3bc9d1930e168ca4bbe8cfa5c27227f7, type: 3}

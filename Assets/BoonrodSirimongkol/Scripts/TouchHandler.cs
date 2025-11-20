@@ -20,6 +20,13 @@ public class TouchHandler : MonoBehaviour
                 if (target != null)
                 {
                     target.OnClicked();
+                    return;
+                }
+
+                QuestObject targetQuest = hit.collider.GetComponent<QuestObject>();
+                if (targetQuest != null)
+                {
+                    targetQuest.Collect();
                 }
             }
         }

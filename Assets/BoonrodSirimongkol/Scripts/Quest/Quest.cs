@@ -18,4 +18,6 @@ public class Quest : ScriptableObject
     [TextArea] 
     public string[] dialogue;    
     public QuestGoal goal; 
+    public Sprite icon;
+    public GameObject questPrefab;
 }
