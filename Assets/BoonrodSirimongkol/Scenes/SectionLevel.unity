@@ -728,6 +728,18 @@ PrefabInstance:
 
 '
       objectReference: {fileID: 0}
+    - target: {fileID: 6259163093861926750, guid: 9eb6d4db7feb45649b740302593091c0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1923654546}
+    - target: {fileID: 6259163093861926750, guid: 9eb6d4db7feb45649b740302593091c0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectLevel3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259163093861926750, guid: 9eb6d4db7feb45649b740302593091c0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 8523325723649126680, guid: 9eb6d4db7feb45649b740302593091c0, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1725,7 +1737,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 0.9647059}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -3176,7 +3188,18 @@ MonoBehaviour:
       Value:
       - {fileID: 11400000, guid: d229ad192d650af41b0802ae6390f0ea, type: 2}
       - {fileID: 11400000, guid: 265aa858f99191f4483a129a869b480a, type: 2}
+    - Key: 2
+      Value:
+      - {fileID: 11400000, guid: 7bab8238b234d1a41bf7498c84e12d77, type: 2}
+      - {fileID: 11400000, guid: 74cd1ea2bef251d439a70eedce169273, type: 2}
+      - {fileID: 11400000, guid: ea18129b05d5af04fb95f9d179b5020b, type: 2}
+    - Key: 3
+      Value:
+      - {fileID: 11400000, guid: c984720c2e054b346ac1caa385324755, type: 2}
+      - {fileID: 11400000, guid: af5ff58d50ae3284f929100584b41695, type: 2}
+      - {fileID: 11400000, guid: fe05741a2fd8e8f4fa817885ba127b61, type: 2}
   level2LockIcon: {fileID: 2139805906}
+  level3LockIcon: {fileID: 704354071}
 --- !u!4 &1923654547
 Transform:
   m_ObjectHideFlags: 0
@@ -3714,7 +3737,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 0.9647059}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -3860,6 +3883,18 @@ PrefabInstance:
     - target: {fileID: 5410238530226589891, guid: 9eb6d4db7feb45649b740302593091c0, type: 3}
       propertyPath: m_text
       value: Level 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259163093861926750, guid: 9eb6d4db7feb45649b740302593091c0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1923654546}
+    - target: {fileID: 6259163093861926750, guid: 9eb6d4db7feb45649b740302593091c0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectLevel2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259163093861926750, guid: 9eb6d4db7feb45649b740302593091c0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8523325723649126680, guid: 9eb6d4db7feb45649b740302593091c0, type: 3}
       propertyPath: m_Pivot.x

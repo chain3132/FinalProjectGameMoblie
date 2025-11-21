@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5fad76270896f144b9dececaf9c3c8c, type: 3}
+  m_Name: Level2 1
+  m_EditorClassIdentifier: Assembly-CSharp::Quest
+  level: 1
+  dialogue:
+  - "Um, so\u2026 I lost my watch. Could you help me look for it? The last time I
+    had it was when I went to eat at the dining hall. I took it off and left it on
+    the table because it was too tight, but when I went back to check, it was gone.
+    It might have fallen somewhere or someone might have picked it up. Please help
+    me check. Thank you so much"
+  goal: 1
+  icon: {fileID: 1689123433212400451, guid: 56d112fff919bf449be3a3b8585bd5e0, type: 3}
+  questPrefab: {fileID: 6453612033321256039, guid: 0e651ed70b79e164d93db97d5974243d, type: 3}

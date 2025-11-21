@@ -19,7 +19,6 @@ public class AdsSimple : MonoBehaviour
         if (instacne == null)
         {
             instacne = this;
-            DontDestroyOnLoad(gameObject);
         }
         else
         {
@@ -30,6 +29,8 @@ public class AdsSimple : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        LevelPlay.SetMetaData("is_test_suite", "enable");
+
         //Open ads
         LevelPlay.ValidateIntegration();
         LevelPlay.OnInitSuccess += SdkInitSuccess;
@@ -37,6 +38,7 @@ public class AdsSimple : MonoBehaviour
         SceneManager.sceneLoaded += OnSceneLoaded;
 
         LevelPlay.Init(AdConfig.AppKey);
+
         OnSceneLoaded(SceneManager.GetActiveScene(), LoadSceneMode.Single);
         Debug.Log("Ads SDK Init Started");
     }
@@ -50,7 +52,12 @@ public class AdsSimple : MonoBehaviour
     {
         Debug.Log("Ads SDK Init Success");
         EnableAds();
+
         isAdEnable = true;
+        LevelPlay.LaunchTestSuite();
+        _rewardedAd.LoadAd();
+        _interstitialAd.LoadAd();
+        _bannerAd.LoadAd();
 
     }
 
@@ -118,7 +125,7 @@ public class AdsSimple : MonoBehaviour
         {
             _rewardedAd.ShowAd();
             _bannerAd.HideAd();
-            int energy = 30;
+            int energy = 60;
             energyText.text = ($"{energy} / 60 ").ToString();
             
         }

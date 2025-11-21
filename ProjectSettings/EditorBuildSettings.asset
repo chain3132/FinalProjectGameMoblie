@@ -6,11 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/BoonrodSirimongkol/Scenes/MainMenu.unity
+    guid: 4ad5ce0b365027a4296a1a8831d832f0
+  - enabled: 1
     path: Assets/BoonrodSirimongkol/Scenes/SectionLevel.unity
     guid: fb998edf02d75304784578d602780955
   - enabled: 1
     path: Assets/BoonrodSirimongkol/Scenes/level1.unity
     guid: b068eb3dcf3a2974bb5ec4c50b07f1ac
+  - enabled: 1
+    path: Assets/BoonrodSirimongkol/Scenes/level2.unity
+    guid: 58b55cd9bf0d7684dbd7292c3e12efe8
+  - enabled: 1
+    path: Assets/BoonrodSirimongkol/Scenes/level3.unity
+    guid: a8ec82b463db3ad46a125b7727221f4b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

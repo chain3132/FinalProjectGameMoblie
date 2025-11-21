@@ -50,7 +50,7 @@ public class MailHandler : MonoBehaviour
     }
     private void SpawnQuest()
     {
-        //Instantiate(currentQuest.questPrefab, questSpawnPoint.position, currentQuest.questPrefab.transform.rotation);
+        Instantiate(currentQuest.questPrefab, questSpawnPoint.position, currentQuest.questPrefab.transform.rotation);
     }
     public void StartTyping(string fullText, bool isFast = false, System.Action onFinished = null)
     {

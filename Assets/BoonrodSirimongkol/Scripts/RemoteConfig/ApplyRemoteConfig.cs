@@ -2,7 +2,6 @@ using System;
 using Unity.Services.Authentication;
 using Unity.Services.Core;
 using Unity.Services.RemoteConfig;
-using UnityEditor.VersionControl;
 using UnityEngine;
 using Task = System.Threading.Tasks.Task;
 

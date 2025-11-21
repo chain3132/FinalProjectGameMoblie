@@ -56,7 +56,17 @@ public class MiniGameProgress : MonoBehaviour
     private  void GameFinished()
     {
 
-        GameManager.Instance.level2Unlocked= true;
+        switch (GameManager.Instance.currentLevel)
+        {
+            case 1:
+                GameManager.Instance.level2Unlocked = true;
+                break;
+            case 2:
+                GameManager.Instance.level3Unlocked = true;
+                break;
+            default:
+                break;
+        }
         Time.timeScale = 0f;
 
         if (winPanel != null)
@@ -72,7 +82,7 @@ public class MiniGameProgress : MonoBehaviour
         yield return new WaitForSecondsRealtime(2f);
 
         Time.timeScale = 1f; 
-        SceneManager.LoadSceneAsync(0); 
+        SceneManager.LoadSceneAsync(1); 
     }
     [ContextMenu("AnalysissStartLevel")]
     public void AnalysissStartLevel()

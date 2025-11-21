@@ -8,7 +8,9 @@ namespace BoonrodSirimongkol.Scripts.Manager
         
         
         public Share.GameState CurrentGameState { get; private set; }
+        public int currentLevel ;
         public bool level2Unlocked = false;
+        public bool level3Unlocked = false;
         
         private Share.GameState _currentGameState;
         

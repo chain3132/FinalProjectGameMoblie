@@ -6,7 +6,6 @@ using BoonrodSirimongkol.Scripts.MiniGame.PictureFrameMiniGame;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
-using static Unity.VisualScripting.Dependencies.Sqlite.SQLite3;
 
 public class MiniGameManager : MonoBehaviour
 {

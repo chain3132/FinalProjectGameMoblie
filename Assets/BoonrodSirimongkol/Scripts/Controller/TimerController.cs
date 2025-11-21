@@ -1,6 +1,7 @@
 using BoonrodSirimongkol.Scripts.Manager;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace BoonrodSirimongkol.Scripts.Controller
 {
@@ -45,10 +46,10 @@ namespace BoonrodSirimongkol.Scripts.Controller
         private void OnTimeOver()
         {
             Debug.Log("Time is up! You Lose!");
-            Time.timeScale = 0f; 
+            Time.timeScale = 0f;
+            SceneManager.LoadSceneAsync(1);
             // TODO: เรียก Game Over Panel 
-            //AdsSimple.instacne.ShowInterstitialAds();
-            
+
         }
 
         public void ResetTimer(float newTime)

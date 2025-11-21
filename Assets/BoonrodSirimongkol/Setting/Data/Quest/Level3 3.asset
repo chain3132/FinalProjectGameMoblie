@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5fad76270896f144b9dececaf9c3c8c, type: 3}
+  m_Name: Level3 3
+  m_EditorClassIdentifier: Assembly-CSharp::Quest
+  level: 1
+  dialogue:
+  - "Hello, housekeeping. I seem to have lost my phone while doing my laundry. I
+    was waiting for the machine to finish spinning, and I was just sitting there
+    using my phone. But when it finished and I went to collect my clothes, I went
+    back to my room and suddenly couldn\u2019t find my phone anymore. I came back
+    down to look for it, but I still can\u2019t find it anywhere. Could you please
+    help me look for it? I might have missed some spots\u2014maybe under the table
+    or under the washing machine. Thank you in advance"
+  goal: 1
+  icon: {fileID: 1689123433212400451, guid: 56d112fff919bf449be3a3b8585bd5e0, type: 3}
+  questPrefab: {fileID: 6453612033321256039, guid: f82234e2828e5b94c86f3238fd478204, type: 3}

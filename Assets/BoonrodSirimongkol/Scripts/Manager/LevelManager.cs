@@ -12,14 +12,17 @@ public class LevelManager : MonoBehaviour
     private AYellowpaper.SerializedCollections.SerializedDictionary<LevelType, Quest[]> _levelQuests;
     [SerializeField]
     private GameObject level2LockIcon;
-    private bool isLevel2Unlocked;
+    private bool _isLevel2Unlocked;
+    [SerializeField]
+    private GameObject level3LockIcon;
+    private bool _isLevel3Unlocked;
     
 
     private void OnEnable()
     {
-        isLevel2Unlocked = GameManager.Instance.IsLevel2Unlocked();
-        Debug.Log(isLevel2Unlocked);
-        UnlockSelectLevel2(isLevel2Unlocked);
+        _isLevel2Unlocked = GameManager.Instance.IsLevel2Unlocked();
+        Debug.Log(_isLevel2Unlocked);
+        UnlockSelectLevel2(_isLevel2Unlocked);
     }
     public void UnlockSelectLevel2(bool unlocked)
     {
@@ -28,8 +31,22 @@ public class LevelManager : MonoBehaviour
     public void SelectLevel1()
     {
         GetQuestFromList(LevelType.Level1);
+        GameManager.Instance.currentLevel = 1;
         EnergyManager.Instance.DecreaseEnergy(30);
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
+    }
+    public void SelectLevel2()
+    {
+        GetQuestFromList(LevelType.Level2);
+        GameManager.Instance.currentLevel = 2;
+        EnergyManager.Instance.DecreaseEnergy(30);
+        SceneManager.LoadScene(3);
+    }
+    public void SelectLevel3()
+    {
+        GetQuestFromList(LevelType.Level3);
+        EnergyManager.Instance.DecreaseEnergy(30);
+        SceneManager.LoadScene(4);
     }
     public void GetQuestFromList(LevelType level)
     {
