@@ -7,6 +7,8 @@ public class GarbageFlashlightUI : MonoBehaviour
     public static event Action OnGarbageCollectedinFlashlight;
     public void OnclickGarbage() 
     {
+        AudioManager.Instance.PlaySFX("PickUpGarbage");
+
         garbage.SetActive(false);
         OnGarbageCollectedinFlashlight.Invoke();
         Debug.Log("im coming");

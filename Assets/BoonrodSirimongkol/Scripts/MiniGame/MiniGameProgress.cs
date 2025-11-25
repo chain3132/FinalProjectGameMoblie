@@ -70,7 +70,11 @@ public class MiniGameProgress : MonoBehaviour
         Time.timeScale = 0f;
 
         if (winPanel != null)
+        {
+            AudioManager.Instance.PlaySFX("Win");
             winPanel.SetActive(true);
+        }
+            
         else
             Debug.LogWarning("Win Panel is not assigned in the inspector!");
         StartCoroutine(ReturnToSceneSelection());

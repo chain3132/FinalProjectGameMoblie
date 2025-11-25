@@ -73,6 +73,7 @@ public class MailHandler : MonoBehaviour
     }
     public void AcceptQuest()
     {
+        AudioManager.Instance.PlaySFX("Click");
         SpawnQuest();
         questPanel.SetActive(false);
         GameManager.Instance.SetGameState(Share.GameState.DuringLevelState);

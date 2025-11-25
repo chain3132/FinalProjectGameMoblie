@@ -17,6 +17,7 @@ namespace BoonrodSirimongkol.Scripts.MiniGame.MoppingMiniGame
         public void OnMiniGameClickEvent()
         {
             currentScrubs++;
+            AudioManager.Instance.PlaySFX("CleaningWater");
             if (progressBar) progressBar.value = currentScrubs;
 
         

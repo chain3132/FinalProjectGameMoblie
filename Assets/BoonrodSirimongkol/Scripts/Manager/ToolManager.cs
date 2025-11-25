@@ -17,6 +17,7 @@ namespace BoonrodSirimongkol.Scripts.Manager
 
         public void SelectTool(Image icon, ToolIconType toolIcon)
         {
+            AudioManager.Instance.PlaySFX("Click");
             CurrentToolIcon = icon.sprite;
             CurrentToolType = toolIcon;
             Debug.Log("Selected Tool: " + toolIcon);

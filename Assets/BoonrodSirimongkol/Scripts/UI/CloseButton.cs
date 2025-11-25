@@ -23,11 +23,13 @@ public class CloseButton : MonoBehaviour
         isPanelOpen = !isPanelOpen;
         if (!isPanelOpen)
         {
+            AudioManager.Instance.PlaySFX("Click");
             panelToClose.SetTrigger("ClosePanel");
             return;
         }
         else
         {
+            AudioManager.Instance.PlaySFX("Click");
             panelToClose.SetTrigger("OpenPanel");
 
         }

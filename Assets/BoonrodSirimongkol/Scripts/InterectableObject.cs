@@ -29,6 +29,7 @@ namespace BoonrodSirimongkol.Scripts
         {
             if (ToolManager.Instance.CurrentToolType == requiredTool && !isFixed)
             {
+                AudioManager.Instance.PlaySFX("Click");
                 MiniGameManager.Instance.GetCurrentMiniGameType(miniGameType,this.thisInterectableObjectObject);
                 Debug.Log("Open MiniGame for " + requiredTool + "!");
             }

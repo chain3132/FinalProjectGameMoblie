@@ -50,6 +50,7 @@ public class GarbageUI : MonoBehaviour
     public void OnPickUpGarbage()
     {
         if (!isMoving)
+            AudioManager.Instance.PlaySFX("PickUpGarbage");
             StartCoroutine(MoveToTarget());
     }
 }

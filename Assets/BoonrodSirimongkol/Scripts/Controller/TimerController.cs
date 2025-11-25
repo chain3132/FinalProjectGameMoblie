@@ -45,6 +45,7 @@ namespace BoonrodSirimongkol.Scripts.Controller
 
         private void OnTimeOver()
         {
+            AudioManager.Instance.PlaySFX("Lose");
             Debug.Log("Time is up! You Lose!");
             Time.timeScale = 0f;
             SceneManager.LoadSceneAsync(1);

@@ -33,6 +33,7 @@ public class FlashlightMiniGame : MiniGame
     public void StartFlashlight()
     {
         isRevealing = true;
+        AudioManager.Instance.PlaySFX("OpenFlashLight");
     }
 
     void Update()
@@ -70,7 +71,6 @@ public class FlashlightMiniGame : MiniGame
     {
         Debug.Log("Garbage Collected!");
         collected++;
-
         if (collected >= totalGarbage)
         {
             EndMiniGame();

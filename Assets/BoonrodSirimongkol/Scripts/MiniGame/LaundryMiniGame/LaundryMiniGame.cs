@@ -94,7 +94,6 @@ namespace BoonrodSirimongkol.Scripts.MiniGame.LaundryMiniGame
             if (clothRects == null || clothRects.Length == 0) return;
             if (_raycaster == null || _eventSystem == null) return;
 
-            // เอาตำแหน่งที่ผู้เล่นแตะหน้าจอ
             Vector2 screenPos;
 
             if (Touchscreen.current != null)
@@ -110,7 +109,6 @@ namespace BoonrodSirimongkol.Scripts.MiniGame.LaundryMiniGame
                 return;
             }
 
-            // ยิง Raycast หา UI ที่โดนคลิก
             PointerEventData pointerData = new PointerEventData(_eventSystem)
             {
                 position = screenPos
@@ -119,7 +117,6 @@ namespace BoonrodSirimongkol.Scripts.MiniGame.LaundryMiniGame
             List<RaycastResult> results = new List<RaycastResult>();
             _raycaster.Raycast(pointerData, results);
 
-            // หาให้ได้ว่าคลิกโดนผ้าชิ้นไหน
             RectTransform targetCloth = null;
             int targetIndex = -1;
 
@@ -144,10 +141,9 @@ namespace BoonrodSirimongkol.Scripts.MiniGame.LaundryMiniGame
                     break;
             }
 
-            // ถ้าคลิกไม่โดนผ้าเลย ก็ไม่ทำอะไร
             if (targetCloth == null || targetIndex < 0)
                 return;
-
+            AudioManager.Instance.PlaySFX("Thorw");
             StartCoroutine(MoveClothToWasher(targetCloth, targetIndex));
         }
 
