@@ -19,6 +19,8 @@ MonoBehaviour:
     have from her, something I keep with me to remember her by. Please, I\u2019m
     begging you. If I don\u2019t find it\u2026 I won\u2019t have anything precious
     left in my life\n"
+  hints:
+  - Search for the missing handkerchief in the cafeteria
   goal: 1
   icon: {fileID: 1689123433212400451, guid: 56d112fff919bf449be3a3b8585bd5e0, type: 3}
   questPrefab: {fileID: 6453612033321256039, guid: d8151ae8af8a85649bb6432849df663f, type: 3}

@@ -13,6 +13,8 @@ public class MailHandler : MonoBehaviour
     [SerializeField]
     private GameObject questPanel;
     [SerializeField]
+    private GameObject hintPanel;
+    [SerializeField]
     private Image questImage;
     [Header("Typing Settings")]
     public float baseSpeed = 0.05f;   
@@ -75,6 +77,7 @@ public class MailHandler : MonoBehaviour
     {
         AudioManager.Instance.PlaySFX("Click");
         SpawnQuest();
+        hintPanel.SetActive(true);
         questPanel.SetActive(false);
         GameManager.Instance.SetGameState(Share.GameState.DuringLevelState);
     }

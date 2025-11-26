@@ -38,7 +38,12 @@ public class QuestObject : MonoBehaviour
                 .Chain(Tween.Custom(sr.color.a, 0f, fadeDuration,
                     v => sr.color = new Color(sr.color.r, sr.color.g, sr.color.b, v),
                     Ease.InCubic))
-                .OnComplete(() => Destroy(gameObject));
+                .OnComplete(() =>
+                {
+                    EnergyManager.Instance.IncreaseEnergy(10);
+                    QuestManager.Instance.SetQuestCompleted(true);
+                    Destroy(gameObject);
+                });
         }
         
     }

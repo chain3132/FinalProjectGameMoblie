@@ -19,6 +19,8 @@ MonoBehaviour:
     find them today. If you come in to clean, could you please help look for them?
     I need them for a meeting tomorrow. Thank you so much. (They might also be somewhere
     around the bed.)"
+  hints:
+  - Find the missing document
   goal: 1
   icon: {fileID: 5890847784052010573, guid: ffb2d4e17c0a8924c82388c07ce62c83, type: 3}
-  questPrefab: {fileID: 221846545581280660, guid: 3bc9d1930e168ca4bbe8cfa5c27227f7, type: 3}
+  questPrefab: {fileID: 6902444678586744851, guid: ea4e15c76a284c54ab948199830f8689, type: 3}

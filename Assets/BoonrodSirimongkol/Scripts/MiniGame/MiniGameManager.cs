@@ -6,6 +6,7 @@ using BoonrodSirimongkol.Scripts.MiniGame.PictureFrameMiniGame;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
+using TouchPhase = UnityEngine.InputSystem.TouchPhase;
 
 public class MiniGameManager : MonoBehaviour
 {
@@ -49,7 +50,10 @@ public class MiniGameManager : MonoBehaviour
         {
             if (CurrentTMiniGameType == EventMiniGameType.PictureFrame)
             {
-                if (Touchscreen.current.primaryTouch.press.wasPressedThisFrame)
+                var touch = Touchscreen.current?.primaryTouch;
+
+                if (touch != null &&
+                    touch.phase.ReadValue() == TouchPhase.Began)
                 {
                     pictureFrameMiniGamePanel.OnMiniGameClickEvent();
                 }
@@ -83,9 +87,7 @@ public class MiniGameManager : MonoBehaviour
     {
         CurrentTMiniGameType = miniGameType;
         _currentInterectableObject = interectableObject;
-        Debug.Log(_currentInterectableObject.name);
-        Debug.Log(_currentInterectableObject);
-        Debug.Log("Current MiniGame Type: " + CurrentTMiniGameType);
+        
         OpenMiniGamePanel();
     }
     

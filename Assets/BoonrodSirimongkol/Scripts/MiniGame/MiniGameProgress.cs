@@ -47,7 +47,12 @@ public class MiniGameProgress : MonoBehaviour
             progressText.text = Mathf.RoundToInt(progress * 100f) + "%";
 
         
-        if (completedMiniGames >= totalMiniGames)
+        
+    }
+
+    private void Update()
+    {
+        if (completedMiniGames >= totalMiniGames && QuestManager.Instance.GetQuestCompleted())
         {
             GameFinished();
         }

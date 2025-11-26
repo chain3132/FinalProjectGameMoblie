@@ -16,8 +16,10 @@ public class Quest : ScriptableObject
 {
     public LevelType level;
     [TextArea] 
-    public string[] dialogue;    
+    public string[] dialogue;  
+    public string[] hints;
     public QuestGoal goal; 
     public Sprite icon;
     public GameObject questPrefab;
+    
 }

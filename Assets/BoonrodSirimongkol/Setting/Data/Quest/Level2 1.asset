@@ -19,6 +19,8 @@ MonoBehaviour:
     the table because it was too tight, but when I went back to check, it was gone.
     It might have fallen somewhere or someone might have picked it up. Please help
     me check. Thank you so much"
+  hints:
+  - Find the missing watch left in the cafeteria
   goal: 1
   icon: {fileID: 1689123433212400451, guid: 56d112fff919bf449be3a3b8585bd5e0, type: 3}
   questPrefab: {fileID: 6453612033321256039, guid: 0e651ed70b79e164d93db97d5974243d, type: 3}

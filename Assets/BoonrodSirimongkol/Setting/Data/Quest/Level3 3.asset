@@ -21,6 +21,8 @@ MonoBehaviour:
     down to look for it, but I still can\u2019t find it anywhere. Could you please
     help me look for it? I might have missed some spots\u2014maybe under the table
     or under the washing machine. Thank you in advance"
+  hints:
+  - Locate the missing phone around the laundry room
   goal: 1
   icon: {fileID: 1689123433212400451, guid: 56d112fff919bf449be3a3b8585bd5e0, type: 3}
   questPrefab: {fileID: 6453612033321256039, guid: f82234e2828e5b94c86f3238fd478204, type: 3}

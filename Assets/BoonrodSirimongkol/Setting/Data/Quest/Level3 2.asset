@@ -20,6 +20,8 @@ MonoBehaviour:
     be somewhere around the washing machines. If you find it, could you please keep
     it for me and bring it to my room? And if possible, please put it in a bag or
     wrap it in something. Thank you\u2026 Oh, right\u2014what I lost was my underwea"
+  hints:
+  - Find the missing underwear
   goal: 1
   icon: {fileID: 1689123433212400451, guid: 56d112fff919bf449be3a3b8585bd5e0, type: 3}
   questPrefab: {fileID: 6453612033321256039, guid: 0152be0f0d4d3c24cbadf8dfdda15267, type: 3}

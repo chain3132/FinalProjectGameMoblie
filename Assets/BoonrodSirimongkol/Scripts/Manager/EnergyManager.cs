@@ -30,4 +30,8 @@ public class EnergyManager : MonoBehaviour
             CurrentEnergy = 0;
         }
     }
+    public void IncreaseEnergy(int amount)
+    {
+        CurrentEnergy += amount;
+    }
 }

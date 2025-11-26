@@ -54,7 +54,6 @@ public class AdsSimple : MonoBehaviour
         EnableAds();
 
         isAdEnable = true;
-        LevelPlay.LaunchTestSuite();
         _rewardedAd.LoadAd();
         _interstitialAd.LoadAd();
         _bannerAd.LoadAd();
@@ -125,8 +124,8 @@ public class AdsSimple : MonoBehaviour
         {
             _rewardedAd.ShowAd();
             _bannerAd.HideAd();
-            int energy = 60;
-            energyText.text = ($"{energy} / 60 ").ToString();
+            int energy = 30;
+            EnergyManager.Instance.IncreaseEnergy(energy);
             
         }
         else

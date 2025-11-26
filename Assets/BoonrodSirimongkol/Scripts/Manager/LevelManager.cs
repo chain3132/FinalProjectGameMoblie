@@ -21,12 +21,17 @@ public class LevelManager : MonoBehaviour
     private void OnEnable()
     {
         _isLevel2Unlocked = GameManager.Instance.IsLevel2Unlocked();
-        Debug.Log(_isLevel2Unlocked);
         UnlockSelectLevel2(_isLevel2Unlocked);
+        _isLevel3Unlocked = GameManager.Instance.IsLevel3Unlocked();
+        UnlockSelectLevel3(_isLevel3Unlocked);
     }
     public void UnlockSelectLevel2(bool unlocked)
     {
         level2LockIcon.SetActive(!unlocked);
+    }
+    public void UnlockSelectLevel3(bool unlocked)
+    {
+        level3LockIcon.SetActive(!unlocked);
     }
     public void SelectLevel1()
     {
@@ -57,6 +62,7 @@ public class LevelManager : MonoBehaviour
         {
             int rnd = Random.Range(0, quests.Length);
             QuestManager.Instance.SetCurrentQuest(quests[rnd]);
+            QuestManager.Instance.SetQuestCompleted(false);
         }
         else
         {

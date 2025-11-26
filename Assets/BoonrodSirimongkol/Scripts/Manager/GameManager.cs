@@ -34,6 +34,10 @@ namespace BoonrodSirimongkol.Scripts.Manager
         {
             return level2Unlocked ;
         }
+        public bool IsLevel3Unlocked()
+        {
+            return level3Unlocked ;
+        }
         public void SetGameState(Share.GameState newState)
         {
             _currentGameState = newState;

@@ -10,7 +10,7 @@ public static class AdConfig
     static string GetAppKey()
     {
 #if UNITY_ANDROID
-        return "5966853";
+        return "23efa9a25";
 #elif UNITY_IOS
         return "5966852";
 #else

@@ -19,6 +19,8 @@ MonoBehaviour:
     by the wind while I was washing. I feel really bad, like I accidentally littered.
     So I wrote this note\u2026 If it\u2019s not too much trouble, could you please
     help me find the detergent packet and throw it away for me? Thank you so much\n"
+  hints:
+  - Find the missing the detergent packe
   goal: 1
   icon: {fileID: 1689123433212400451, guid: 56d112fff919bf449be3a3b8585bd5e0, type: 3}
   questPrefab: {fileID: 6453612033321256039, guid: decc5cf83101f424abe6ad18248aa283, type: 3}
