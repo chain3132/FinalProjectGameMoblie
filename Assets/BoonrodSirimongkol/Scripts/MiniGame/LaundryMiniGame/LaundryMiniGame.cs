@@ -84,8 +84,8 @@ namespace BoonrodSirimongkol.Scripts.MiniGame.LaundryMiniGame
         public override void EndMiniGame()
         {
             gameObject.SetActive(false);
+            MiniGameProgress.Instance.UpdateProgress(1);
             MiniGameManager.Instance.OpenNextStateOrFinish();
-            Debug.Log("EndYong");
         }
 
         public void OnMiniGameClickEvent()

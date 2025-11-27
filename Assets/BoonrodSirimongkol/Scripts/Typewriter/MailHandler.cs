@@ -37,13 +37,16 @@ public class MailHandler : MonoBehaviour
         questPanel.SetActive(true);
         SetMail();  
         GameManager.Instance.StartGame();
+        Debug.Log("CurrentQuest = " + currentQuest);
+        Debug.Log("Dialogue Count = " + currentQuest?.dialogue?.Length);
+        Debug.Log("Dialogue[0] = " + currentQuest?.dialogue?[0]);
+        Debug.Log("textUI = " + textUI);
+
+        if (currentQuest != null)
+            StartTyping(currentQuest.dialogue[0], true);
     }
 
-    private void Start()
-    {
-        if (currentQuest == null){return;}
-        StartTyping(currentQuest.dialogue[0],true);
-    }
+   
 
     private void SetMail()
     {
@@ -62,6 +65,8 @@ public class MailHandler : MonoBehaviour
     }
     private IEnumerator TypeText(string fullText, bool isFast, System.Action onFinished)
     {
+        Debug.Log("TimeScale = " + Time.timeScale);
+
         textUI.text = "";
         float speed = isFast ? fastSpeed : baseSpeed;
 

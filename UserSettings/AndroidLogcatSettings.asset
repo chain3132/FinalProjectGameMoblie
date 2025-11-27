@@ -3,7 +3,7 @@
     "m_SelectedProcess": {
         "deviceId": "RZCX202FWAA",
         "name": "com.DefaultCompany.FinalProjectGameMoblie",
-        "processId": 27864,
+        "processId": 27460,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -30,6 +30,24 @@
             "deviceId": "RZCX202FWAA",
             "name": "com.DefaultCompany.FinalProjectGameMoblie",
             "processId": 27864,
+            "exited": false
+        },
+        {
+            "deviceId": "RZCX202FWAA",
+            "name": "com.DefaultCompany.FinalProjectGameMoblie",
+            "processId": 13636,
+            "exited": false
+        },
+        {
+            "deviceId": "RZCX202FWAA",
+            "name": "com.DefaultCompany.FinalProjectGameMoblie",
+            "processId": 19886,
+            "exited": false
+        },
+        {
+            "deviceId": "RZCX202FWAA",
+            "name": "com.DefaultCompany.FinalProjectGameMoblie",
+            "processId": 27460,
             "exited": false
         }
     ],

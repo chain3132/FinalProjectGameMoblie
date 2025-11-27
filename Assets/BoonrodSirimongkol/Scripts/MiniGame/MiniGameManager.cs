@@ -33,6 +33,8 @@ public class MiniGameManager : MonoBehaviour
     public static MiniGameManager Instance;
     private bool isMiniGameStarted = false;
     private InterectableObject _currentInterectableObject;
+    private bool waitForRelease = false;
+
 
     #endregion
 
@@ -52,10 +54,18 @@ public class MiniGameManager : MonoBehaviour
             {
                 var touch = Touchscreen.current?.primaryTouch;
 
-                if (touch != null &&
-                    touch.phase.ReadValue() == TouchPhase.Began)
+                if (touch == null) return;
+
+                var phase = touch.phase.ReadValue();
+
+                if (phase == TouchPhase.Began && !waitForRelease)
                 {
+                    waitForRelease = true;
                     pictureFrameMiniGamePanel.OnMiniGameClickEvent();
+                }
+                else if (phase == TouchPhase.Ended)
+                {
+                    waitForRelease = false;
                 }
             }
             else if (CurrentTMiniGameType == EventMiniGameType.GarbageCollection)
@@ -64,6 +74,7 @@ public class MiniGameManager : MonoBehaviour
             }
             else if (CurrentTMiniGameType == EventMiniGameType.MoppingClean)
             {
+                
                 if (Touchscreen.current != null &&
                     Touchscreen.current.primaryTouch.press.wasPressedThisFrame)
                 {

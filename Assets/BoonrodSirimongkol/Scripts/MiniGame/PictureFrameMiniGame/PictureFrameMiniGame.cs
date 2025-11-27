@@ -21,6 +21,7 @@ namespace BoonrodSirimongkol.Scripts.MiniGame.PictureFrameMiniGame
             currentRotations++;
             pictureFrameImage.Rotate(0,0,-15);
             AudioManager.Instance.PlaySFX("AdjustWireframe");
+            
         }
 
         public void SetMiniGameImg( Sprite img)

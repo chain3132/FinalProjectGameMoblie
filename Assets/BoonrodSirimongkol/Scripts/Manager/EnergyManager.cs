@@ -34,4 +34,13 @@ public class EnergyManager : MonoBehaviour
     {
         CurrentEnergy += amount;
     }
+    public bool IsEnoughEnergy(int amount)
+    {
+        if (CurrentEnergy >= amount)
+        {
+            return true;
+        }
+        return false;
+        
+    }
 }

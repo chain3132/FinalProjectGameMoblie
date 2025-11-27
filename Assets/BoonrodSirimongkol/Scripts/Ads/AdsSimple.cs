@@ -8,7 +8,6 @@ using UnityEngine.SceneManagement;
 public class AdsSimple : MonoBehaviour 
 {
     public static AdsSimple instacne;
-    private LevelPlayBannerAd _bannerAd;
     private LevelPlayInterstitialAd _interstitialAd;
     private LevelPlayRewardedAd _rewardedAd;
     [SerializeField] private TextMeshProUGUI energyText;
@@ -56,7 +55,6 @@ public class AdsSimple : MonoBehaviour
         isAdEnable = true;
         _rewardedAd.LoadAd();
         _interstitialAd.LoadAd();
-        _bannerAd.LoadAd();
 
     }
 
@@ -65,22 +63,12 @@ public class AdsSimple : MonoBehaviour
         var configBuilder = new LevelPlayBannerAd.Config.Builder();
             configBuilder.SetSize(LevelPlayAdSize.BANNER).SetPosition(LevelPlayBannerPosition.BottomRight);
             var BannerConfig = configBuilder.Build();
-        _bannerAd = new LevelPlayBannerAd(AdConfig.BannerAdUnitId, BannerConfig);
         _interstitialAd = new LevelPlayInterstitialAd(AdConfig.InterstitialAdUnitId);
         _rewardedAd = new LevelPlayRewardedAd(AdConfig.RewardedAdUnitId);
     }
-    public void LoadBannerAd()
-    {
-        _bannerAd.LoadAd();
-    }
-    public void ShowBannerAd()
-    {
-        _bannerAd.ShowAd();
-    }
-    public void HideBannerAd()
-    {
-        _bannerAd.HideAd();
-    }
+    
+    
+    
     public void LoadInterstitialAds()
     {
         _interstitialAd.LoadAd();
@@ -102,15 +90,12 @@ public class AdsSimple : MonoBehaviour
         if (scene.name == "SectionLevel") 
         {
             Debug.Log("Show banner in MainMenu");
-            _bannerAd.LoadAd();
-            _bannerAd.ShowAd();
             _rewardedAd.LoadAd();
             _interstitialAd.LoadAd();
         }
         else
         {
             Debug.Log("Hide banner in other scenes");
-            _bannerAd.HideAd();
         }
     }
     
@@ -123,7 +108,6 @@ public class AdsSimple : MonoBehaviour
         if (_rewardedAd.IsAdReady())
         {
             _rewardedAd.ShowAd();
-            _bannerAd.HideAd();
             int energy = 30;
             EnergyManager.Instance.IncreaseEnergy(energy);
             
@@ -136,7 +120,6 @@ public class AdsSimple : MonoBehaviour
    
     private void OnDestroy()
     {
-        _bannerAd?.DestroyAd();
         
         
     }

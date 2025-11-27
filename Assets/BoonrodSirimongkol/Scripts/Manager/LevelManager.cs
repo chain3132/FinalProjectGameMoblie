@@ -35,26 +35,40 @@ public class LevelManager : MonoBehaviour
     }
     public void SelectLevel1()
     {
-        AudioManager.Instance.PlaySFX("Click");
-        GetQuestFromList(LevelType.Level1);
-        GameManager.Instance.currentLevel = 1;
-        EnergyManager.Instance.DecreaseEnergy(30);
-        SceneManager.LoadScene(2);
+        if (EnergyManager.Instance.IsEnoughEnergy(30))
+        {
+            AudioManager.Instance.PlaySFX("Click");
+            GetQuestFromList(LevelType.Level1);
+            GameManager.Instance.currentLevel = 1;
+            EnergyManager.Instance.DecreaseEnergy(30);
+            SceneManager.LoadScene(2);
+        }
+        
     }
     public void SelectLevel2()
     {
-        AudioManager.Instance.PlaySFX("Click");
-        GetQuestFromList(LevelType.Level2);
-        GameManager.Instance.currentLevel = 2;
-        EnergyManager.Instance.DecreaseEnergy(30);
-        SceneManager.LoadScene(3);
+        if (EnergyManager.Instance.IsEnoughEnergy(30))
+        {
+            AudioManager.Instance.PlaySFX("Click");
+            GetQuestFromList(LevelType.Level2);
+            GameManager.Instance.currentLevel = 2;
+            EnergyManager.Instance.DecreaseEnergy(30);
+            SceneManager.LoadScene(3);
+            Time.timeScale = 1f;
+
+        }
     }
     public void SelectLevel3()
     {
-        AudioManager.Instance.PlaySFX("Click");
-        GetQuestFromList(LevelType.Level3);
-        EnergyManager.Instance.DecreaseEnergy(30);
-        SceneManager.LoadScene(4);
+        if (EnergyManager.Instance.IsEnoughEnergy(30))
+        {
+            AudioManager.Instance.PlaySFX("Click");
+            GetQuestFromList(LevelType.Level3);
+            EnergyManager.Instance.DecreaseEnergy(30);
+            SceneManager.LoadScene(4);
+            Time.timeScale = 1f;
+
+        }
     }
     public void GetQuestFromList(LevelType level)
     {

@@ -11,6 +11,7 @@ public class MiniGameProgress : MonoBehaviour
     [SerializeField] private TextMeshProUGUI progressText;
     [SerializeField]private int totalMiniGames = 3;
     [SerializeField] private GameObject winPanel;
+    private bool isWining = false;
 
 
     private int completedMiniGames = 0;
@@ -30,6 +31,7 @@ public class MiniGameProgress : MonoBehaviour
 
     private void Start()
     {
+        isWining = false;
         UpdateProgress(0);
     }
 
@@ -73,13 +75,13 @@ public class MiniGameProgress : MonoBehaviour
                 break;
         }
         Time.timeScale = 0f;
-
+        if (isWining) return;
         if (winPanel != null)
         {
+            isWining = true;
             AudioManager.Instance.PlaySFX("Win");
             winPanel.SetActive(true);
         }
-            
         else
             Debug.LogWarning("Win Panel is not assigned in the inspector!");
         StartCoroutine(ReturnToSceneSelection());
@@ -91,7 +93,9 @@ public class MiniGameProgress : MonoBehaviour
         yield return new WaitForSecondsRealtime(2f);
 
         Time.timeScale = 1f; 
-        SceneManager.LoadSceneAsync(1); 
+        SceneManager.LoadSceneAsync(1);
+        
+        
     }
     [ContextMenu("AnalysissStartLevel")]
     public void AnalysissStartLevel()
