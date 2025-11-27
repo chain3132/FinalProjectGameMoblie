@@ -20,6 +20,7 @@ public class LevelManager : MonoBehaviour
 
     private void OnEnable()
     {
+        Time.timeScale = 1f;
         _isLevel2Unlocked = GameManager.Instance.IsLevel2Unlocked();
         UnlockSelectLevel2(_isLevel2Unlocked);
         _isLevel3Unlocked = GameManager.Instance.IsLevel3Unlocked();

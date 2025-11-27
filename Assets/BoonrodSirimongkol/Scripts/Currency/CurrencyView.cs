@@ -9,7 +9,7 @@ public class CurrencyView : MonoBehaviour
     {
         UpdateText();
     }
-
+    
     public void UpdateText()
     {
         var currency = EnergyManager.Instance.CurrentEnergy;

@@ -110,6 +110,7 @@ public class AdsSimple : MonoBehaviour
             _rewardedAd.ShowAd();
             int energy = 30;
             EnergyManager.Instance.IncreaseEnergy(energy);
+            EnergyManager.Instance.UpdateEnergyView();
             
         }
         else

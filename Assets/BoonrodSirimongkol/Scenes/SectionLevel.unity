@@ -1206,6 +1206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bb48fc921edede48bfa186c71423617, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnergyManager
+  currencyView: {fileID: 1857902330}
 --- !u!4 &408438898
 Transform:
   m_ObjectHideFlags: 0
